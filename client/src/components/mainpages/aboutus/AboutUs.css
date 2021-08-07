@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+.map707{
+    display: block;
+
+margin-left: auto;
+margin-right: auto;
+width: 600px;
+height: 450px;
+border-style: solid;
+  border-color: yellow;
+  border-style: solid;
+}
+.prinabout{
+    background-image: url("bgabout.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+    width: 100%;
+    background-position: center;
+    background-color: black;
+    
+}
+.ktiba{
+    color: white ;
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+    font-family: 'Gowun Dodum', sans-serif;
+}
+.spanklam{
+    font-size: 50px;
+    color: yellow;
+}
+
+
+
+.iconlol{
+display: flex;
+align-items: center;
+color: rgb(255, 255, 255);
+justify-content: center;
+
+
+
+}

@@ -1,0 +1,322 @@
+ /* .product_card{
+    max-width: 300px;
+    overflow: hidden;
+    height: 500px;
+    padding: 15px;
+    box-shadow: 0 0 15px #ddd;
+    margin: 10px 0;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+.product_card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.product_box h2{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #323232;
+}
+.product_card span{
+    color: crimson;
+}
+.product_box p{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 70px;
+    overflow: hidden;
+    color: #323232;
+}
+.row_btn{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_btn a{
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+#btn_buy{
+    
+margin-right: 5px;
+background-color: white; 
+color: black;  
+  border: 2px solid #4CAF50;
+    
+}
+#btn_view{
+    
+    margin-left: 5px;
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+#btn_view:hover{
+    background-color: #008CBA;
+  color: white;
+}
+#btn_buy:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.product_card input{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+#btn_dlt{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    
+
+}
+
+#btn_dlt:hover {
+    background-color: #f44336;
+    color: white;
+    
+
+  }
+
+  .button-commun {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  }
+
+.zoom-colonne{
+    
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+}
+
+.zoom-colonne:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+} 
+
+
+
+ */
+
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+    
+  
+}
+
+section
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+    padding-left: 0;
+    
+}
+
+section .card
+{
+    
+    width: 320px;
+    height: 320px;
+    margin: 20px;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    border-radius: 10px;
+    list-style: none;
+  flex: 0 0 60.333333%;
+    
+}
+
+section .card .box
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: 1s ease;
+}
+
+section .card:hover .box
+{
+    transform: rotateY(180deg);
+}
+
+section .card .box .imgBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
+section .card .box .imgBx img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+section .card .box .contentBx
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:  linear-gradient(145deg,#fcfcfc,#f3c35d );
+    backface-visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    transform: rotateY(180deg);
+    border-radius: 10px;
+    box-shadow: 10px 20px 30px rgba(0,0,0,0.1);
+}
+
+section .card .box .contentBx div
+{
+    transform-style: preserve-3d;
+    padding: 20px;
+    background: linear-gradient(145deg,#ffffff, #f3c35d);
+    transform: translateZ(100px);
+    border-radius: 10px;
+}
+
+section .card .box .contentBx div h2
+{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+section .card .box .contentBx div p
+{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+}
+.row_btn{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_btn a{
+    width: 50%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+#btn_buy{
+    
+margin-right: 5px;
+background-color: #4CAF50; 
+color: black;  
+  border: 2px solid #4CAF50;
+    
+}
+
+#btn_buy:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+#btn_view{
+    
+    margin-left: 5px;
+  background-color: #008CBA; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+#btn_view:hover{
+    background-color: #008CBA;
+  color: white;
+}
+
+.product_card input{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+
+
+#btn_dlt{
+    background-color: #f44336; 
+    color: black; 
+    border: 2px solid #f44336;
+    
+
+}
+
+#btn_dlt:hover {
+    background-color: #f44336;
+    color: white;
+    
+
+  }
+
+  .button-commun {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    transition-duration: 0.4s;
+  }

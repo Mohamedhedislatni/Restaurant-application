@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital@1&display=swap');
+.para{
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    padding-top: 100px;
+}
+.titre{
+    color: white;
+    font-size: 65px;
+    margin-left: 100px;
+    font-family: 'Titillium Web', Helvetica, Arial, sans-serif;
+    
+}
+
+
+#btn-welcome{
+    padding-left: 12px;
+    padding-right:12px;
+margin-left: 800px;
+font-size: 25px;
+background-color: yellow;
+border-radius: 5px;
+font-family: 'Amiri', serif;
+transition-duration: 0.4s;
+}
+
+#btn-welcome:hover {
+	background-color: black;
+	color:yellow;
+}
+

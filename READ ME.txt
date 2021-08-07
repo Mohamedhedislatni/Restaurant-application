@@ -1,0 +1,13 @@
+// acced to my database
+
+
+DB_URI= mongodb+srv://mouadhzidi:azerty1432@cluster0.urbgg.mongodb.net/gomycode?retryWrites=true&w=majority
+PORT = 5000
+REFRESH_TOKEN_SECRET = BDk<,y@.zm@nya]xKYLz-7a}M69V%XCRxzA.da<2V(..F[Cqbf
+ACCESS_TOKEN_SECRET = TF7r9AJ.fsR+saF>;J/Ndgv++v:uEww4#cUa^Mt}_eYTR.qzQ<Xw(g=+W;F$&n=SA$tDUs-&mJNL9YhWZ8]&<kc[6yJ)$qZ$dUYR
+CLOUD_NAME=dqnjwicsz
+CLOUD_API_KEY=313593955523319
+CLOUD_API_SECRET=9O76YLfhuQOJ3nr9rmoD0-pOePQ
+
+
+
